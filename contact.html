@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Clinic Management System</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="tooth-shape-dental-logo-template-illustration-design-vector-eps-10.jpg" alt="Dental Clinic Logo">
+                    <h1>Dental Clinic</h1>
+                </div>
+                
+                <!-- Add button to open sidebar -->
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+
+                <nav>
+                    <ul>
+                        <li><a href="main_page.html">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">Services <i class="fa fa-caret-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="#">Orthodontics</a>
+                                <a href="#">Tooth colored</a>
+                                <a href="#">Tooth Extraction</a>
+                                <a href="#">Dentures</a>
+                                <a href="#">Oral Prophylaxis(cleaning)</a>
+                            </div>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="Admin.html">Login</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Main content goes here -->
+    <div class="contact_container">
+        <div class="contact-info">
+            <h1>SEND US A MESSAGE</h1>
+            <p>If you have any questions or inquiries, feel free to contact us using the form below or via the provided contact information.</p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+                <p><strong>Phone:</strong> +123 456 7890</p>
+                <p><strong>Email:</strong> info@example.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-text">
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
